@@ -6,7 +6,7 @@ def home(request):
     return HttpResponse('home page')
 
 def product(request):
-    return HttpResponse('contact page')
+    return HttpResponse('product page')
 
-def contact(request):
-    return HttpResponse('contact page')
+def customer(request):
+    return HttpResponse('customer page')
