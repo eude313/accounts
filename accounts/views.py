@@ -6,19 +6,19 @@ def home(request):
     return render(request, 'account/dashboard.html')
 
 def product(request):
-    return HttpResponse('product page')
+    return render(request, 'account/products.html')
 
 def customer(request):
-    return HttpResponse('customer page')
+    return render(request, 'account/customer.html')
 
 
 
 """
 
----accounts --------------
------templates -----------
+---accounts ---------------
+-----templates ------------
 -------accounts -----------
 ----------dashboard.html---
-----------product.html------
+----------product.html-----
 
 """
