@@ -3,13 +3,13 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'account/dashboard.html')
+    return render(request, 'templates/dashboard.html')
 
 def product(request):
-    return render(request, 'account/products.html')
+    return render(request, 'templates/products.html')
 
 def customer(request):
-    return render(request, 'account/customer.html')
+    return render(request, 'templates/customer.html')
 
 
 
