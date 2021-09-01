@@ -1,3 +1,6 @@
+{% load static %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,24 +22,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
     rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
     <title>CRM</title>
-    <style>
-        #logo{
-            background-color: #ebeff5;
-        }
-        body {
-            background-color: #ebeff5;
-        }
-        #total-order{
-            background-color: #4cb4c7;
-        }
-        #orders-delivered{ 
-            background-color: #7abecc;
-        }
-        #total-order{
-            background-color: #7CD1C0;
-        }
-    </style>
 </head>
 <body>
     {% include 'accounts/navbar.html' %}
